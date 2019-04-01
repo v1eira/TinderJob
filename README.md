@@ -24,7 +24,7 @@ Primeiro, garanta que o pip instalado esteja na ultima versão
 ```bash
 (venv) ~$ python3 -m pip install --upgrade pip
 ```
-Depois instale as depndências
+Depois instale as dependências
 ```bash
 (venv) ~$ sudo pip install -r requirements.txt
 ```
