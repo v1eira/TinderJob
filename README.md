@@ -28,6 +28,10 @@ Depois instale as dependências
 ```bash
 (venv) ~$ sudo pip install -r requirements.txt
 ```
+OBS: Para desativar o *virtualenv*:
+```bash
+(venv) ~$ deactivate
+```
 ## Rodando o servidor
 Coloque o arquivo *.env* em *django/jobTinder* e de o comando seguinte para rodar o servidor.
 ```bash
