@@ -14,8 +14,13 @@ Marcos de Paula: cardepaula@gmail.com <br>
 
 
 ### 3. MINI-MUNDO
+Observando as formas que as empresas, nos dias de hoje, divulgam suas vagas de emprego e como os profissionais de TI procuram estas vagas, pensamos na criação de uma plataforma que pudesse unificar, facilitar e agilizar esse processo tanto para as empresas quanto para os profissionais.
 
-<inserir o mini mundo>
+Na plataforma em questão os profissionais de TI realizam seus cadastros e informam os conhecimentos que possuem. Eles podem procurar vagas, candidatando-se à elas ou não, alterar seus dados e enviar mensagens para as empresas que gostaram de seus perfis. As empresas, por sua vez, podem criar novas vagas de emprego, informando os requisitos necessários para preencher a vaga, alterar e deletar vagas, procurar profissionais de acordo com a vaga em questão, aceitando-os ou não, alterar seus dados e enviar mensagens para os candidatos que foram aceitos para suas vagas.
+
+Para um profissional enviar mensagem para uma empresa ou o contrário, é necessário que o profissional tenha se candidatado à vaga da empresa e que a empresa tenha aceitado o perfil do profissional.
+
+Para o profissional é importante que apareçam apenas vagas que sejam compatíveis com seus conhecimentos. Para as empresas o importante é que apareçam apenas candidatos que preencham os requisitos necessários para suas vagas, de acordo com a porcentagem de compatibilidade estipulada pela mesma.
 
 ### 4. TECNOLOGIAS UTILIZADAS <br>
 
@@ -27,7 +32,7 @@ Software: desenvolvido em Python, utilizando pyCharm e o framework Django. <br>
 
 
 ### 5. PMC <br> 
-https://docs.google.com/drawings/d/1a-0lQvwfUCVxYfxCVV7p6tyMoTpmQ2pI3AYdvLzMa3k/edit
+[PMC](https://docs.google.com/drawings/d/1a-0lQvwfUCVxYfxCVV7p6tyMoTpmQ2pI3AYdvLzMa3k/edit)
 
 ### 6. DIÁRIO DE BORDO <br>
 [Diário de bordo](https://docs.google.com/document/d/1jsbV87FM1IgDgYg8sVrKC3exxmWTPYckfMhe58PNbCs/edit)
@@ -55,7 +60,7 @@ https://docs.google.com/drawings/d/1a-0lQvwfUCVxYfxCVV7p6tyMoTpmQ2pI3AYdvLzMa3k/
 |RNF008| O sistema consulta o CPF e o CNPJ do cadastrado para validar o cadastro |Autenticação|Sistema|
   
 ### 11. Diagrama de Classes <br>
-![alt text](https://raw.githubusercontent.com/ewersonv/POO2/master/arquivos/JobTinder.png)
+![alt text](https://github.com/ewersonv/POO2/blob/master/arquivos/diagramas/JobTinder.jpg)
 
 ### 12. Iniciando o servidor
 
