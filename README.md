@@ -64,6 +64,13 @@ Software: desenvolvido em Python, utilizando pyCharm e o framework Django. <br>
 |RNF006| O sistema pode ser atualizado com novas profissões |Modificabilidade|Funcionalidade|
 |RNF007| O sistema armazena matchs, conversas e criações de vagas em banco de dado |Analisabilidade|Sistema|
 |RNF008| O sistema consulta o CPF e o CNPJ do cadastrado para validar o cadastro |Autenticação|Sistema|
+
+#### Regras de Negócio
+| TIPO | Descrição |
+|--|--|
+|Restrições| A vaga de emprego só aparece para o candidato quando tiver 50% de compatibilidade entre os requisitos  da vaga e as informações do candidato. <br><br> Vagas são ofertadas de acordo com a região selecionada pelo candidato. <br><br> Vagas desativadas só ficarão armazenadas no banco de dados por 6 meses.|
+|Ativadores de Ação| Se ambos os pares aceitarem o match, o chat é criado. <br><br> Se o match for desfeito por um dos pares, o chat é deletado. <br><br> A empresa, caso a vaga seja preenchida, pode desativar a vaga. |
+|Inferências| Se a empresa tiver muitas requisições de match, será considerada empresa Popular. |
   
 ### 11. Diagrama de Classes <br>
 ![alt text](https://github.com/ewersonv/POO2/blob/master/arquivos/diagramas/JobTinder.jpg)
