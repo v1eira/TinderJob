@@ -10,7 +10,13 @@ Jadson Pereira: jadsonpereira121@gmail.com <br>
 Marcos de Paula: cardepaula@gmail.com <br>
 
 ### 2. INTRODUÇÃO E MOTIVAÇAO
+Hoje, no Brasil, existem [12,7 milhões de desempregados](https://g1.globo.com/economia/noticia/2019/02/27/desemprego-sobe-para-12-em-janeiro-diz-ibge.ghtml). É verdade que o mercado para profissionais de TI segue aquecido apesar desse número alarmante de desempregados em nossa sociedade. Porém, nota-se a falta de um canal unificado, para divulgação de vagas de emprego, por parte das empresas, e procura de vagas de emprego, por parte dos profissionais.
 
+Usualmente, empresas divulgam suas vagas em seus sites, grupos em redes sociais ou em plataformas terceirizadas de vagas de emprego. No modelo atual, as empresas cadastram suas vagas nessas plataformas e os profissionais procuram por elas, geralmente tendo que assinar a plataforma em questão para ter acesso à mais informações sobre as vagas e a empresa.
+
+Analisando esse cenário, tivemos a ideia de criar uma plataforma que facilitasse esse acesso às vagas, por parte dos candidatos, e à profissionais qualificados por parte das empresas. A ideia é que em nossa plataforma, com apenas alguns cliques, tanto empresas quanto candidatos, possam encontrar sua parte correspondente com facilidade, afetando até mesmo a forma como os profissionais de RH dessas empresas se comunicam com novos talentos e os recrutam.
+
+Com isso, pretendemos ser a principal plataforma na busca e divulgação de vagas de emprego. Num primeiro momento focando apenas em vagas para profissionais de TI, mas podendo expandir o escopo para outras profissões, chegando até mesmo a ser uma plataforma universal para procura e divulgação de qualquer tipo de vaga de emprego.
 
 
 ### 3. MINI-MUNDO
