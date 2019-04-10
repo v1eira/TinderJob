@@ -91,7 +91,7 @@ Ative o virtualenv.
 ```bash
 $ source venv/bin/activate
 ou
-$ . venv/bin/activat
+$ . venv/bin/activate
 ```
 #### Instalandos as dependências
 Primeiro, garanta que o pip instalado esteja na ultima versão
@@ -107,7 +107,7 @@ OBS: Para desativar o *virtualenv*:
 (venv) ~$ deactivate
 ```
 #### Rodando o servidor
-Coloque o arquivo *.env* em *django/jobTinder* e de o comando seguinte para rodar o servidor.
+Coloque o arquivo *.env* em *django/projeto* e de o comando seguinte para rodar o servidor.
 ```bash
 (venv) ~$  python manage.py runserver
 ```
