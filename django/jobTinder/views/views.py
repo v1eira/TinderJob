@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def candidatos_list(request):
+    return render(request, 'jobTinder/candidatos_list.html', {})
