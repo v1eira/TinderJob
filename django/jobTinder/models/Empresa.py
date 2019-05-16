@@ -3,9 +3,9 @@ from .Usuario import Usuario
 
 
 class Empresa(models.Model):
-    #CNPJ = models.CharField(max_length=50)
     nome = models.CharField(max_length=50)
-    email = models.EmailField(max_length=50) #criar tabela Contato?
+    cnpj = models.CharField(max_length=50)
+    email = models.EmailField(max_length=50)
     descricao = models.CharField(max_length=120)
 
 
@@ -13,9 +13,9 @@ class Empresa(models.Model):
         app_label = 'jobTinder'
         #abstract = True
 
-    def __init__(self, nome, email, descricao):
+    def __init__(self, nome, cnpj, email, descricao):
         self.nome = nome
-        #self.cnpj = cnpj
+        self.cnpj = cnpj
         self.email = email
         self.descricao = descricao
 

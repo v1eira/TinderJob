@@ -2,7 +2,6 @@ from django.db import models
 
 
 class Endereco(models.Model):
-    CEP = models.CharField(max_length=20)
     rua = models.CharField(max_length=100)
     numero = models.IntegerField()
     complemento = models.CharField(max_length=50)

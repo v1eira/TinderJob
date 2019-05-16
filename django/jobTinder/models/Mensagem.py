@@ -9,3 +9,9 @@ class Mensagem(models.Model):
 
     class Meta:
         app_label = 'jobTinder'
+
+    def __init__(self, status, dataHora, candidato, empresa):
+        self.status = status
+        self.dataHora = dataHora
+        self.candidato = candidato
+        self.empresa = empresa
