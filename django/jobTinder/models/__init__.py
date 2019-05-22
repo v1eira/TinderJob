@@ -5,5 +5,5 @@ from .Endereco import Endereco
 from .Match import Match
 from .Mensagem import Mensagem
 from .PreMatch import PreMatch
-from .Usuario import Usuario
+from .Perfil import Perfil
 from .VagaEmprego import VagaEmprego

@@ -1,8 +1,9 @@
 from django.db import models
-from .Usuario import Usuario
+from .Perfil import Usuario
 
 
 class Filial(models.Model):
+    CNPJ: str = models.CharField(max_length=100)
     endereco = models.ForeignKey("Endereco", on_delete=models.CASCADE)
     empresa = models.ForeignKey("Empresa", on_delete=models.CASCADE)
 

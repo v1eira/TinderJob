@@ -2,8 +2,10 @@ from django.db import models
 
 
 class Match(models.Model):
-    status = models.CharField(max_length=100)
+    ativa: bool = models.BooleanField()
     data = models.DateField()
+    dataExpiracao = models.DateField()
+    #keys
     vaga = models.ForeignKey("VagaEmprego", on_delete=models.CASCADE)
     candidato = models.ForeignKey("Candidato", on_delete=models.CASCADE)
 

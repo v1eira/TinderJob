@@ -1,13 +1,13 @@
 from django.db import models
 
 
-class Usuario(models.Model):
+class Perfil(models.Model):
 
-    nome = models.CharField(max_length=50)
-    cpf = models.CharField(max_length=11)
+    nome:str = models.CharField(max_length=50)
+    cpf:str = models.CharField(max_length=11)
     telefone = models.CharField(max_length=13)
-    email = models.EmailField()
-    senha = models.CharField(max_length=20)
+    email:str = models.EmailField()
+    senha:str = models.CharField(max_length=20)
     data_nascimento = models.DateField()
     endereco = models.ForeignKey("Endereco", on_delete=models.CASCADE)
 
@@ -23,3 +23,9 @@ class Usuario(models.Model):
         self.email = email
         self.senha = senha
         self.data_nascimento = data_nascimento
+
+
+        #def desfazerMatch():
+        #def aceitarMatch():
+        #def gerenciarPerfil():
+
