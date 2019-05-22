@@ -3,7 +3,7 @@ from django.db import models
 
 class VagaEmprego(models.Model):
     nome = models.CharField(max_length=100)
-    descricao = models.TextField()  #
+    descricao = models.TextField()  
     regimeTrabalho = models.CharField(max_length=100)
     data = models.DateField()
     requisitosObrigatorios = models.CharField(max_length=100)

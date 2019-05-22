@@ -7,3 +7,5 @@ from .Mensagem import Mensagem
 from .PreMatch import PreMatch
 from .Usuario import Usuario
 from .VagaEmprego import VagaEmprego
+from .Filial import Filial
+from .Recrutador import Recrutador

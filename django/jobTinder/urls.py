@@ -1,6 +1,7 @@
-from django.urls import path
+from django.urls import path, re_path
 from .views import views
 
 urlpatterns = [
-    path('', views.candidatos_list, name='candidatos_list'),
+    # re_path(r'^$', views.candidatos_list, name='candidatos_list'),
+    # re_path(r'^candidato/<username>/empresas_list/(?P<pk>\d+)/$', views.pre_match_empresas_list, name='pre_match_empresas_list'),
 ]

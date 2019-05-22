@@ -3,8 +3,8 @@ from .Usuario import Usuario
 
 
 class Candidato(Usuario):
-    experiencia = models.ListField(max_length=280)
-    habilidades = models.ListField(max_length=50)
+    experiencia = models.TextField(max_length=280)
+    habilidades = models.TextField(max_length=50)
     local_preferencia = models.CharField(max_length=50)
 
     def __init__(self, nome, cpf, email, senha, data_nascimento, experiencia, habilidades, local_preferencia):
@@ -17,5 +17,7 @@ class Candidato(Usuario):
     # def deletaVaga():
     # def atualizaVaga():
 
+    def __str__(self):
+        return super.nome
     class Meta:
         app_label = 'jobTinder'
