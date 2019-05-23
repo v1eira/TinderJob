@@ -13,5 +13,6 @@ class Filial(models.Model):
 
     def __str__(self):
         return self.empresa.nome
+    
     class Meta:
         app_label = 'jobTinder'
