@@ -1,6 +1,4 @@
 from django.db import models
-from .Perfil import Usuario
-
 
 class Empresa(models.Model):
     razaoSocial:str = models.CharField(max_length=50)
