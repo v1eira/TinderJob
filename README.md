@@ -73,7 +73,7 @@ Software: desenvolvido em Python, utilizando pyCharm e o framework Django. <br>
 |Inferências| Se a empresa tiver muitas requisições de match, será considerada empresa Popular. |
   
 ### 11. Diagrama de Classes <br>
-![alt text](https://github.com/ewersonv/POO2/blob/master/arquivos/diagramas/JobTinder.jpg)
+![alt text](https://github.com/v1eira/POO2/blob/master/arquivos/diagramas/Diagrama%20de%20Classes%20(2).jpg)
 
 ### 12. Iniciando o servidor
 
