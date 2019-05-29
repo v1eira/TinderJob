@@ -4,6 +4,7 @@ from django.db import models
 class Mensagem(models.Model):
     data = models.DateField()
     mensagem:str = models.CharField(max_length=50)
+    status: str = models.CharField(max_length=30)
     #keys
     candidato = models.ForeignKey("Candidato", on_delete=models.CASCADE)
     empresa = models.ForeignKey("Empresa", on_delete=models.CASCADE)
