@@ -13,19 +13,23 @@ class Perfil(models.Model):
 
 
     #Métodos
-    def __init__(self, nome, cpf, telefone, email, senha, data_nascimento):
+    def __init__(self, nome, cpf, telefone, email, senha, data_nascimento, endereco):
         self.nome = nome
         self.cpf = cpf
         self.telefone = telefone
         self.email = email
         self.senha = senha
         self.data_nascimento = data_nascimento
+        self.endereco = endereco
 
 
         #def desfazerMatch():
         #def aceitarMatch():
         #def gerenciarPerfil():
 
-    
+    def __str__(self):
+        return self.nome
     class Meta:
         app_label = 'jobTinder'
+
+        c = Candidato("Marcos", "1234", "c@a.com","senhafacil", "18/5/1999", "nenhuma", "todas", "Vitoria")
