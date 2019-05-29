@@ -108,6 +108,8 @@ class VagaEmprego(models.Model):
     def cidade(self, cidade):
         self.cidade = cidade
 
+    # Prototype de fato
+
     def clone(self):
         return VagaEmprego(self)
 
