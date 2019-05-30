@@ -1,5 +1,4 @@
 from django.db import models
-from .Perfil import Usuario
 
 
 class Filial(models.Model):
@@ -7,13 +6,13 @@ class Filial(models.Model):
     endereco = models.ForeignKey("Endereco", on_delete=models.CASCADE)
     empresa = models.ForeignKey("Empresa", on_delete=models.CASCADE)
 
-    class Meta:
-        app_label = 'jobTinder'
-        #abstract = True
-
-    def __init__(self, endereco, empresa):
+    def __init__(self, cnpj, endereco, empresa):
+        self.CNPJ = cnpj
         self.endereco = endereco
         self.empresa = empresa
 
+    def __str__(self):
+        return self.empresa.nome
+    
     class Meta:
         app_label = 'jobTinder'

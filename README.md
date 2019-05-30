@@ -73,7 +73,7 @@ Software: desenvolvido em Python, utilizando pyCharm e o framework Django. <br>
 |Inferências| Se a empresa tiver muitas requisições de match, será considerada empresa Popular. |
   
 ### 11. Diagrama de Classes <br>
-![alt text](https://github.com/ewersonv/POO2/blob/master/arquivos/diagramas/JobTinder.jpg)
+![alt text](https://github.com/v1eira/POO2/blob/master/arquivos/diagramas/Diagrama%20de%20Classes%20(2).jpg)
 
 ### 12. Iniciando o servidor
 
@@ -117,3 +117,14 @@ Se tudo estiver certo, no enderoço `http://localhost:8000/` ou `http://127.0.0.
 ### Referencias
 
 [Django Girls](https://tutorial.djangogirls.org/pt/)
+
+
+### 13. Padrões de Projeto Usados
+#### Padrão Fabrica
+Define uma interface para criar um objeto, mas "deixa" a decisão de instanciação para as subclasses.
+
+#### Padrão Prototype
+Especifica os tipos de objetos que serão criados através de protótipos e cria um novo objetivo copiando um protótipo. 
+
+#### Padrão Observer
+Define a dependência de um objeto perante a outros objetos e, assim, quando um estado de um objeto é mudado, os objetos dependentes são notificados e atualizados automaticamente.

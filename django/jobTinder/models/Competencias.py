@@ -6,10 +6,14 @@ class Competencias(models.Model):
     AreaConhecimento:str = models.CharField(max_length=50)
     descricao:str = models.CharField(max_length=50)
 
-    def __init__(self,nome,nivel,AreaConhecimento,descricao):
+    def __init__(self, nome, nivel, area_conhecimento, descricao):
         self.nome=nome
         self.nivel= nivel
         self.AreaConhecimento= AreaConhecimento
         self.descricao=descricao
 
-    #
+    def __str__(self):
+        return self.nome
+        
+    class Meta:
+        app_label = 'jobTinder'

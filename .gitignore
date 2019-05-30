@@ -2,5 +2,9 @@
 .vscode
 .idea
 .env
+.sonarlint
+env
 venv/
 __pycache__
+*~
+*.pyc

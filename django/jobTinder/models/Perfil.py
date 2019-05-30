@@ -11,9 +11,6 @@ class Perfil(models.Model):
     data_nascimento = models.DateField()
     endereco = models.ForeignKey("Endereco", on_delete=models.CASCADE)
 
-    class Meta:
-        app_label = 'jobTinder'
-        abstract = True
 
     #Métodos
     def __init__(self, nome, cpf, telefone, email, senha, data_nascimento):
@@ -29,3 +26,6 @@ class Perfil(models.Model):
         #def aceitarMatch():
         #def gerenciarPerfil():
 
+    
+    class Meta:
+        app_label = 'jobTinder'
