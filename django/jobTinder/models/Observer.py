@@ -1,7 +1,7 @@
 from django.db import models
 from .Mensagem import Mensagem
 
-class Observador(models.Models):
+class Observer(models.Model):
     #Alerta o status
     def update(self,msg: Mensagem):
         if(msg.statusRemetente == 'Não lida'):
