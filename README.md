@@ -114,10 +114,6 @@ Coloque o arquivo *.env* em *django/projeto* e de o comando seguinte para rodar 
 Se tudo estiver certo, no enderoço `http://localhost:8000/` ou `http://127.0.0.1:8000` aparecerá a página padrão do **django**
 
 
-### Referencias
-
-[Django Girls](https://tutorial.djangogirls.org/pt/)
-
 
 ### 13. Padrões de Projeto Usados
 #### Padrão Fabrica
@@ -128,3 +124,7 @@ Especifica os tipos de objetos que serão criados através de protótipos e cria
 
 #### Padrão Observer
 Define a dependência de um objeto perante a outros objetos e, assim, quando um estado de um objeto é mudado, os objetos dependentes são notificados e atualizados automaticamente.
+
+### 14.Referencias
+
+[Django Girls](https://tutorial.djangogirls.org/pt/)
