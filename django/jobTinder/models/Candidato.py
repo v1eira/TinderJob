@@ -13,7 +13,10 @@ class Candidato(Perfil):
         self.competencias = competencias
         self.local_preferencia = local_preferencia
 
-    #def pesquisarVaga():
+    # def pesquisarVaga():
+
+    def __str__(self):
+        return super.nome
 
     def __str__(self):
         return super().__str__()

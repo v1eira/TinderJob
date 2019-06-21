@@ -1,15 +1,16 @@
 from .Candidato import Candidato
+from .Recrutador import Recrutador
 from .Empresa import Empresa
 
 
 class FabricaPerfil:
 
     @staticmethod
-    def get_perfil(self, tipo_perfil):
+    def create_perfil(self, nome, cpf, telefone, email, senha, data_nascimento, *args):
 
-        if tipo_perfil.lower() == 'candidato':
-            perfil = Candidato() #TODO
-        elif tipo_perfil.lower() == 'recrutador':
-            perfil = Recrutador() #TODO
+        if len(args) > 1:
+            perfil = Candidato(nome, cpf, telefone, email, senha, data_nascimento, trabalhos_passados, local_preferencia)
+        else:
+            perfil = Recrutador(nome, cpf, telefone, email, senha, data_nascimento, filial)
 
         return perfil
