@@ -18,8 +18,5 @@ class Candidato(Perfil):
     def __str__(self):
         return super.nome
 
-    def __str__(self):
-        return super.nome
-        
     class Meta:
         app_label = 'jobTinder'
