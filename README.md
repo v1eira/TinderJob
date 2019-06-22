@@ -123,7 +123,7 @@ Nós usamos esse padrão na criação do perfil de usuario, pois há dois tipos 
 
 No caso do Candidato ele pode adicionar trabalhos passados e local de preferencia que deseja trabalhar.
 
-No caso do Recrutador ele adiciona em qual filial da empresa ele pertence,
+No caso do Recrutador ele adiciona em qual filial da empresa ele pertence.
 
 #### Padrão Prototype
 Especifica os tipos de objetos que serão criados através de protótipos e cria um novo objetivo copiando um protótipo.
@@ -134,6 +134,11 @@ Nós usamos esse padrão na criação de vagas, pois elas precisam seguir um pad
 Define a dependência de um objeto perante a outros objetos e, assim, quando um estado de um objeto é mudado, os objetos dependentes são notificados e atualizados automaticamente.
 
 Nós usamos esse padrão no sistema de notificação de mensagens do chat, avisando que as mensagens foram lidas
+
+#### Padrão Comando
+Encapsula uma requisição como um objeto, deixando a parametrização do cliente com diferentes requisições.
+Nós usamos esse padrão para o funcionamento dos botões de comando da tela de like, tendo o botão like, dislike e back.
+
 
 ### 14.Referencias
 
