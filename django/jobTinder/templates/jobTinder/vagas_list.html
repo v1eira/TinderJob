@@ -1,0 +1,36 @@
+{% extends "model-page.html" %}
+
+{% block style %}
+    <style>
+        div.polaroid {
+            width: 250px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+        }
+        div.container {
+            padding: 10px;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+            <div class="row">
+                {% for v in vagas %}
+                    <!--div class="col-sm-4">
+                        <a href="../detail/{{ v.id }}">
+                            <div class="polaroid">
+                                <img src="{{ v.photo.url }}" alt="Norway" style="width:100%">
+                                <div class="container">
+                                    <p>{{ v.city }}</p>
+                                </div>
+                            </div>
+                        </a>
+                        <br>
+                    </div-->
+                    <div>{{ v }}</div>
+                {% endfor %}
+            </div>
+        </div>  
+    </div>  
+{% endblock %}

@@ -5,7 +5,7 @@ from .Empresa import Empresa
 from .Endereco import Endereco
 from .Estado import Estado
 from .Filial import Filial
-from .Like import Like
+# from .Like import Like
 from .Match import Match
 from .Mensagem import Mensagem
 from .Pais import Pais

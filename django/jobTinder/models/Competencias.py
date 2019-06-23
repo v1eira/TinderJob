@@ -1,16 +1,11 @@
 from django.db import models
 
-class Competencias(models.Model):
-    nome:str = models.CharField(max_length=100)
-    nivel:float = models.FloatField()
-    areaConhecimento:str = models.CharField(max_length=50)
-    descricao:str = models.CharField(max_length=50)
 
-    def __init__(self, nome, nivel, areaConhecimento, descricao):
-        self.nome = nome
-        self.nivel = nivel
-        self.areaConhecimento = areaConhecimento
-        self.descricao = descricao
+class Competencias(models.Model):
+    nome: str = models.CharField(max_length=100)
+    nivel: float = models.FloatField()
+    areaConhecimento: str = models.CharField(max_length=50)
+    descricao: str = models.CharField(max_length=50)
 
     def __str__(self):
         return self.nome

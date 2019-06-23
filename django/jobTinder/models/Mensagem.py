@@ -1,5 +1,5 @@
 from django.db import models
-#from .Observer import Observer
+# from .Observer import Observer
 
 class Mensagem(models.Model):
     data = models.DateField()
@@ -14,6 +14,7 @@ class Mensagem(models.Model):
 
     class Meta:
         app_label = 'jobTinder'
+
     #Inicializador das classes.
     def __init__(self, data,mensagem:str,statusRemetente:str,statusDestinatario:str, observadores:list):
         self.data = data
@@ -21,31 +22,37 @@ class Mensagem(models.Model):
         self.statusRemetente = statusRemetente
         self.statusDestinatario:str = statusDestinatario
         self.observadores:list = observadores
-    #Se o observador não esta na lista de observadores, adiciona.
+        
+    # Se o observador não esta na lista de observadores, adiciona.
     def attach(self, observador):
         if observador not in self.observadores:
             self.observers.append(observador)
         else:
             print('Não foi possivel adicionar: {}'.format(observador))
-    #Se o Observador esta na lista de observador, remove.
+
+    # Se o Observador esta na lista de observador, remove.
     def detach(self,observador):
         if observador in self.observadores:
             self.observadores.remove(observador)
         else:
             print("Observador não encontrado.")
-    #Retorna a lista de observadores.
+
+    # Retorna a lista de observadores.
     def __getMonitores__(self):
         return self.observadores
-    #notifica todos os observadores.
+
+    # notifica todos os observadores.
     def notify(self):
-        #Alerta todos os observadores
+        # Alerta todos os observadores
         for observer in self._observers:
             observer.update(self)
+
     @property
     def status(self):
         return self.statusRemetente
+
     @status.setter
-    #Atualiza o status e notifica.
-    def status(self,statusRemetente:str):
-        self.statusRemetente=statusRemetente
+    # Atualiza o status e notifica.
+    def status(self, status_remetente: str):
+        self.statusRemetente = status_remetente
         self.notify()
