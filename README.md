@@ -117,23 +117,23 @@ Se tudo estiver certo, no enderoço `http://localhost:8000/` ou `http://127.0.0.
 
 ### 13. Padrões de Projeto Usados
 #### Padrão Fabrica
-Define uma interface para criar um objeto, mas "deixa" a decisão de instanciação para as subclasses.
-
-Nós usamos esse padrão na criação do perfil de usuario, pois há dois tipos de usuario que possuimos, Candidato e Recrutador, tendo cada um suas proprias funções e argumentos.
-
-No caso do Candidato ele pode adicionar trabalhos passados e local de preferencia que deseja trabalhar.
-
-No caso do Recrutador ele adiciona em qual filial da empresa ele pertence,
+Define uma interface para criar um objeto, mas "deixa" a decisão de instanciação para as subclasses.<br>
+Nós usamos esse padrão na criação do perfil de usuario, pois há dois tipos de usuario que possuimos, Candidato e Recrutador, tendo cada um suas proprias funções e argumentos.<br>
+No caso do Candidato ele pode adicionar trabalhos passados e local de preferencia que deseja trabalhar.<br>
+No caso do Recrutador ele adiciona em qual filial da empresa ele pertence.
 
 #### Padrão Prototype
-Especifica os tipos de objetos que serão criados através de protótipos e cria um novo objetivo copiando um protótipo.
-
+Especifica os tipos de objetos que serão criados através de protótipos e cria um novo objetivo copiando um protótipo.<br>
 Nós usamos esse padrão na criação de vagas, pois elas precisam seguir um padrão de inserção que é reutilizado varias vezes
 
 #### Padrão Observer
-Define a dependência de um objeto perante a outros objetos e, assim, quando um estado de um objeto é mudado, os objetos dependentes são notificados e atualizados automaticamente.
-
+Define a dependência de um objeto perante a outros objetos e, assim, quando um estado de um objeto é mudado, os objetos dependentes são notificados e atualizados automaticamente.<br>
 Nós usamos esse padrão no sistema de notificação de mensagens do chat, avisando que as mensagens foram lidas
+
+#### Padrão Comando
+Encapsula uma requisição como um objeto, deixando a parametrização do cliente com diferentes requisições.<br>
+Nós usamos esse padrão para o funcionamento dos botões de comando da tela de like, tendo o botão like, dislike e back.
+
 
 ### 14.Referencias
 
