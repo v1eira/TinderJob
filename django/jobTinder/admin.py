@@ -9,5 +9,6 @@ admin.site.register(Endereco)
 admin.site.register(VagaEmprego)
 admin.site.register(Filial)
 admin.site.register(Recrutador)
+admin.site.register(Competencias)
 
 

@@ -11,16 +11,6 @@ class Perfil(models.Model):
     data_nascimento = models.DateField()
     endereco = models.ForeignKey("Endereco", on_delete=models.CASCADE)
 
-    # Métodos
-    # def __init__(self, nome, cpf, telefone, email, senha, data_nascimento, endereco):
-    #     self.nome = nome
-    #     self.cpf = cpf
-    #     self.telefone = telefone
-    #     self.email = email
-    #     self.senha = senha
-    #     self.data_nascimento = data_nascimento
-    #     self.endereco = endereco
-
     # def desfazerMatch():
     # def aceitarMatch():
     # def gerenciarPerfil():
