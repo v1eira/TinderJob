@@ -11,7 +11,7 @@ class Recrutador(Perfil):
     #def _modificarvaga:
 
     def __str__(self):
-        return super().__str__()
+        return self.nome
         
     class Meta:
         app_label = 'jobTinder'

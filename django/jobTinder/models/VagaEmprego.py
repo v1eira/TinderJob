@@ -15,7 +15,7 @@ class VagaEmprego(models.Model):
     cidade = models.ForeignKey("Cidade", on_delete=models.CASCADE)
 
     def __str__(self):
-        return "Vaga" + self.recrutador.filial
+        return "Vaga: " + self.titulo
 
     # Prototype de fato
     def clone(self):

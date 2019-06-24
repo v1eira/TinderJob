@@ -10,5 +10,7 @@ admin.site.register(VagaEmprego)
 admin.site.register(Filial)
 admin.site.register(Recrutador)
 admin.site.register(Competencias)
+admin.site.register(CompetenciasCandidato)
+admin.site.register(CompetenciasVagaEmprego)
 
 
