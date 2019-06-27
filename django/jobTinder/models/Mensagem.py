@@ -1,5 +1,4 @@
 from django.db import models
-# from .Observer import Observer
 
 class Mensagem(models.Model):
     data = models.DateField()
