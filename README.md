@@ -104,11 +104,11 @@ OBS: Para desativar o *virtualenv*:
 (venv) ~$ deactivate
 ```
 ### Rodando o servidor
-Coloque o arquivo *.env* em *django/projeto* e de o comando seguinte para rodar o servidor.
+Rode o servidor com o seguinte comando.
 ```bash
 (venv) ~$  python manage.py runserver
 ```
-Se tudo estiver certo, no enderoço `http://localhost:8000/` ou `http://127.0.0.1:8000` aparecerá a página padrão do **django**
+Se tudo estiver certo, o servidor estará respondendo nos endereços `http://localhost:8000/` ou `http://127.0.0.1:8000`
 
 ## 13. Padrões de Projeto Usados
 ### Padrão Fabrica
