@@ -1,15 +1,14 @@
 # POO2
 Repositório para as atividades referentes ao trabalho da disciplina de POO2
 
-
-### 1. COMPONENTES
+## 1. COMPONENTES
 
 André Altivo: Andrehdx@gmail.com  <br>
 Ewerson Vieira: ewersonv@gmail.com <br>
 Jadson Pereira: jadsonpereira121@gmail.com <br>
 Marcos de Paula: cardepaula@gmail.com <br>
 
-### 2. INTRODUÇÃO E MOTIVAÇAO
+## 2. INTRODUÇÃO E MOTIVAÇAO
 Hoje, no Brasil, existem [12,7 milhões de desempregados](https://g1.globo.com/economia/noticia/2019/02/27/desemprego-sobe-para-12-em-janeiro-diz-ibge.ghtml). É verdade que o mercado para profissionais de TI segue aquecido apesar desse número alarmante de desempregados em nossa sociedade. Porém, nota-se a falta de um canal unificado, para divulgação de vagas de emprego, por parte das empresas, e procura de vagas de emprego, por parte dos profissionais.
 
 Usualmente, empresas divulgam suas vagas em seus sites, grupos em redes sociais ou em plataformas terceirizadas de vagas de emprego. No modelo atual, as empresas cadastram suas vagas nessas plataformas e os profissionais procuram por elas, geralmente tendo que assinar a plataforma em questão para ter acesso à mais informações sobre as vagas e a empresa.
@@ -18,8 +17,7 @@ Analisando esse cenário, tivemos a ideia de criar uma plataforma que facilitass
 
 Com isso, pretendemos ser a principal plataforma na busca e divulgação de vagas de emprego. Num primeiro momento focando apenas em vagas para profissionais de TI, mas podendo expandir o escopo para outras profissões, chegando até mesmo a ser uma plataforma universal para procura e divulgação de qualquer tipo de vaga de emprego.
 
-
-### 3. MINI-MUNDO
+## 3. MINI-MUNDO
 Observando as formas que as empresas, nos dias de hoje, divulgam suas vagas de emprego e como os profissionais de TI procuram estas vagas, pensamos na criação de uma plataforma que pudesse unificar, facilitar e agilizar esse processo tanto para as empresas quanto para os profissionais.
 
 Na plataforma em questão os profissionais de TI realizam seus cadastros e informam os conhecimentos que possuem. Eles podem procurar vagas, candidatando-se à elas ou não, alterar seus dados e enviar mensagens para as empresas que gostaram de seus perfis. As empresas, por sua vez, podem criar novas vagas de emprego, informando os requisitos necessários para preencher a vaga, alterar e deletar vagas, procurar profissionais de acordo com a vaga em questão, aceitando-os ou não, alterar seus dados e enviar mensagens para os candidatos que foram aceitos para suas vagas.
@@ -28,7 +26,7 @@ Para um profissional enviar mensagem para uma empresa ou o contrário, é necess
 
 Para o profissional é importante que apareçam apenas vagas que sejam compatíveis com seus conhecimentos. Para as empresas o importante é que apareçam apenas candidatos que preencham os requisitos necessários para suas vagas, de acordo com a porcentagem de compatibilidade estipulada pela mesma.
 
-### 4. TECNOLOGIAS UTILIZADAS <br>
+## 4. TECNOLOGIAS UTILIZADAS <br>
 
 Mockup: Mockplus <br>
 Gerenciamento de projeto e controle de versão: GitHub <br>
@@ -36,24 +34,23 @@ Modelagem do banco de dados: brModelo <br>
 Banco de dados: Sqlite <br>
 Software: desenvolvido em Python, utilizando pyCharm e o framework Django. <br>
 
-
-### 5. PMC <br> 
+## 5. PMC <br> 
 [PMC](https://docs.google.com/drawings/d/1a-0lQvwfUCVxYfxCVV7p6tyMoTpmQ2pI3AYdvLzMa3k/edit)
 
-### 6. DIÁRIO DE BORDO <br>
+## 6. DIÁRIO DE BORDO <br>
 [Diário de bordo](https://docs.google.com/document/d/1jsbV87FM1IgDgYg8sVrKC3exxmWTPYckfMhe58PNbCs/edit)
 
-### 7. PROTÓTIPO <br>
+## 7. PROTÓTIPO <br>
 [Mockup](https://drive.google.com/drive/folders/1Q0q1J942u3t1DoPic3Kgb_pzQReLMcU0)
 
-### 8. Kanban <br>
+## 8. Kanban <br>
 [Tarefas](https://github.com/ewersonv/POO2/projects/1)
 
-### 9. Modelo conceitual <br>
+## 9. Modelo conceitual <br>
 ![alt text](arquivos/diagramas/Conceitual.png)
 
-### 10. Requisitos <br>
-#### Requisitos Não Funcionais
+## 10. Requisitos <br>
+### Requisitos Não Funcionais
 | Identificador | Descrição | Categoria | Escopo |
 |--|--|--|--|
 |RNF001| O aplicativo deverá funcionar em aparelhos mobile Android e IOS |Portabilidade|Funcionalidade|
@@ -65,19 +62,19 @@ Software: desenvolvido em Python, utilizando pyCharm e o framework Django. <br>
 |RNF007| O sistema armazena matchs, conversas e criações de vagas em banco de dado |Analisabilidade|Sistema|
 |RNF008| O sistema consulta o CPF e o CNPJ do cadastrado para validar o cadastro |Autenticação|Sistema|
 
-#### Regras de Negócio
+### Regras de Negócio
 | TIPO | Descrição |
 |--|--|
 |Restrições| A vaga de emprego só aparece para o candidato quando tiver 50% de compatibilidade entre os requisitos  da vaga e as informações do candidato. <br><br> Vagas são ofertadas de acordo com a região selecionada pelo candidato. <br><br> Vagas desativadas só ficarão armazenadas no banco de dados por 6 meses.|
 |Ativadores de Ação| Se ambos os pares aceitarem o match, o chat é criado. <br><br> Se o match for desfeito por um dos pares, o chat é deletado. <br><br> A empresa, caso a vaga seja preenchida, pode desativar a vaga. |
 |Inferências| Se a empresa tiver muitas requisições de match, será considerada empresa Popular. |
   
-### 11. Diagrama de Classes <br>
+## 11. Diagrama de Classes <br>
 ![alt text](https://github.com/v1eira/POO2/blob/master/arquivos/diagramas/Diagrama%20de%20Classes%20(2).jpg)
 
-### 12. Iniciando o servidor
+## 12. Iniciando o servidor
 
-#### Preparando o ambiente
+### Preparando o ambiente
 Entre no diretorio *./django*.
 ```bash
 $ cd ./django
@@ -93,7 +90,7 @@ $ source venv/bin/activate
 ou
 $ . venv/bin/activate
 ```
-#### Instalandos as dependências
+### Instalandos as dependências
 Primeiro, garanta que o pip instalado esteja na ultima versão
 ```bash
 (venv) ~$ python3 -m pip install --upgrade pip
@@ -106,35 +103,32 @@ OBS: Para desativar o *virtualenv*:
 ```bash
 (venv) ~$ deactivate
 ```
-#### Rodando o servidor
+### Rodando o servidor
 Coloque o arquivo *.env* em *django/projeto* e de o comando seguinte para rodar o servidor.
 ```bash
 (venv) ~$  python manage.py runserver
 ```
 Se tudo estiver certo, no enderoço `http://localhost:8000/` ou `http://127.0.0.1:8000` aparecerá a página padrão do **django**
 
-
-
-### 13. Padrões de Projeto Usados
-#### Padrão Fabrica
+## 13. Padrões de Projeto Usados
+### Padrão Fabrica
 Define uma interface para criar um objeto, mas "deixa" a decisão de instanciação para as subclasses.<br>
 Nós usamos esse padrão na criação do perfil de usuario, pois há dois tipos de usuario que possuimos, Candidato e Recrutador, tendo cada um suas proprias funções e argumentos.<br>
 No caso do Candidato ele pode adicionar trabalhos passados e local de preferencia que deseja trabalhar.<br>
 No caso do Recrutador ele adiciona em qual filial da empresa ele pertence.
 
-#### Padrão Prototype
+### Padrão Prototype
 Especifica os tipos de objetos que serão criados através de protótipos e cria um novo objetivo copiando um protótipo.<br>
 Nós usamos esse padrão na criação de vagas, pois elas precisam seguir um padrão de inserção que é reutilizado varias vezes
 
-#### Padrão Observer
+### Padrão Observer
 Define a dependência de um objeto perante a outros objetos e, assim, quando um estado de um objeto é mudado, os objetos dependentes são notificados e atualizados automaticamente.<br>
 Nós usamos esse padrão no sistema de notificação de mensagens do chat, avisando que as mensagens foram lidas
 
-#### Padrão Comando
+### Padrão Comando
 Encapsula uma requisição como um objeto, deixando a parametrização do cliente com diferentes requisições.<br>
 Nós usamos esse padrão para o funcionamento dos botões de comando da tela de like, tendo o botão like, dislike e back.
 
-
-### 14.Referencias
+## 14.Referencias
 
 [Django Girls](https://tutorial.djangogirls.org/pt/)
