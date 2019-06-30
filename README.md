@@ -129,6 +129,10 @@ Nós usamos esse padrão no sistema de notificação de mensagens do chat, avisa
 Encapsula uma requisição como um objeto, deixando a parametrização do cliente com diferentes requisições.<br>
 Nós usamos esse padrão para o funcionamento dos botões de comando da tela de like, tendo o botão like, dislike e back.
 
+### Padrão Singleton
+Garante que apenas um objeto será criado e prover um único ponto de acesso para a esse objeto.<br>
+Nós usamos esse padrão para que tenha um unico ponto de acesso para o Banco de Dados.
+
 ## 14.Referencias
 
 [Django Girls](https://tutorial.djangogirls.org/pt/)
