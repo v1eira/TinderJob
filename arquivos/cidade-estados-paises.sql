@@ -12,9 +12,9 @@ VALUES (1, 'ARGENTINA'),
 (11, 'URUAGUAI'),
 (12, 'VENEZUELA');
 
-SELECT * FROM jobTinder_pais
+SELECT * FROM jobTinder_pais;
 
-INSERT INTO jobTinder_estado (id, nome, sigla, pais_id) VALUES
+INSERT INTO jobTinder_estado(id, nome, sigla, pais_id) VALUES
 (1, 'Acre', 'AC', 3),
 (2, 'Alagoas', 'AL', 3),
 (3, 'Amazonas', 'AM', 3),

@@ -1,4 +1,4 @@
-#PAIS
+-- PAIS
 INSERT INTO jobTinder_pais (nome) VALUES (
 'ARGENTINA');
 INSERT INTO jobTinder_pais (nome) VALUES (
@@ -25,7 +25,7 @@ INSERT INTO jobTinder_pais (nome) VALUES (
 'VENEZUELA');
 
 
-# ESTADO
+-- ESTADO
 INSERT INTO jobTinder_estado (nome,sigla,pais_id) VALUES (
 'Acre','AC',3);
 INSERT INTO jobTinder_estado (nome,sigla,pais_id) VALUES (
@@ -82,7 +82,7 @@ INSERT INTO jobTinder_estado (nome,sigla,pais_id) VALUES (
 'Tocantins','TO',3);
 
 
-# CIDADE 
+-- CIDADE 
 INSERT INTO jobTinder_cidade (nome,estado_id) VALUES (
 'Afonso Cláudio',8);
 INSERT INTO jobTinder_cidade (nome,estado_id) VALUES (
@@ -1530,7 +1530,7 @@ INSERT INTO jobTinder_cidade (nome,estado_id) VALUES (
 INSERT INTO jobTinder_cidade (nome,estado_id) VALUES (
 'Zacarias',26);
 
-# ENDERECO
+-- ENDERECO
 INSERT INTO jobTinder_endereco (cep,rua,complemento,numero,bairro,cidade_id) VALUES (
 '06708-030','Avenida Marginal','Terreo',261,'Parque São George',4851);
 INSERT INTO jobTinder_endereco (cep,rua,complemento,numero,bairro,cidade_id) VALUES (
@@ -1550,7 +1550,7 @@ INSERT INTO jobTinder_endereco (cep,rua,complemento,numero,bairro,cidade_id) VAL
 INSERT INTO jobTinder_endereco (cep,rua,complemento,numero,bairro,cidade_id) VALUES (
 '29061-560','Avenida Paiva','Bloco 1, andar 10',1831,'Praia da Costa',77);
 
-# EMPRESA
+-- EMPRESA
 INSERT INTO jobTinder_empresa (razaoSocial,bio) VALUES (
 'IBM BRASIL-INDUSTRIA MAQUINAS E SERVICOS LIMITADA','Fabrica hardware e software, oferece serviços de infraestrutura, serviços de hospedagem e serviços de consultoria.');
 INSERT INTO jobTinder_empresa (razaoSocial,bio) VALUES (
@@ -1558,7 +1558,7 @@ INSERT INTO jobTinder_empresa (razaoSocial,bio) VALUES (
 INSERT INTO jobTinder_empresa (razaoSocial,bio) VALUES (
 'Google Brasil Internet Ltda','É uma empresa multinacional de serviços online e software dos Estados Unidos.');
 
-# FILIAL
+-- FILIAL
 INSERT INTO jobTinder_filial (cnpj,empresa_id,endereco_id) VALUES (
 '06.990.590/0001-23 | 06990590000123',3,1);
 INSERT INTO jobTinder_filial (cnpj,empresa_id,endereco_id) VALUES (
@@ -1572,7 +1572,7 @@ INSERT INTO jobTinder_filial (cnpj,empresa_id,endereco_id) VALUES (
 INSERT INTO jobTinder_filial (cnpj,empresa_id,endereco_id) VALUES (
 '33.372.251/0128-39 | 33372251012839',1,6);
 
-# RECRUTADOR
+-- RECRUTADOR
 INSERT INTO jobTinder_recrutador (nome,cpf,telefone,email,senha,data_nascimento,endereco_id,filial_id) VALUES (
 'Vitoria Cavalcanti','532.709.257','(11) 4090-328','vit.cavalcanti@gmail.com','1234',1988-01-14,7,1);
 INSERT INTO jobTinder_recrutador (nome,cpf,telefone,email,senha,data_nascimento,endereco_id,filial_id) VALUES (
@@ -1581,10 +1581,10 @@ INSERT INTO jobTinder_recrutador (nome,cpf,telefone,email,senha,data_nascimento,
 'Gabriela Ribeiro','149.586.268','(69) 8362-662','gabrielapr@yahoo.com.br','1234',1986-05-20,9,4);
 
 
-# CANIDATO
+-- CANIDATO
 INSERT INTO jobTinder_candidato (nome,cpf,telefone,email,senha,data_nascimento,localPreferencia,trabalhosPassados,endereco_id) VALUES (
 'Test','12345678910','123','abc@gmail.com','123',1999-06-23,'Vitoria','abc',1);
 
-# COMPETENCIAS
+-- COMPETENCIAS
 INSERT INTO jobTinder_competencias (nome,nivel,areaConhecimento,descricao,candidato_id,vagaEmprego_id) VALUES (
 'Frontend',123,'php','20anos',0,0);
