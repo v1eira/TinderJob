@@ -21,6 +21,12 @@ class VagaEmprego(models.Model):
     def clone(self):
         return VagaEmprego(self)
 
+    def next(self):
+        pass
+
+    def back(self):
+        pass
+
     # def _calcularCompatibilidade(competencias: Competencias):
 
     class Meta:
