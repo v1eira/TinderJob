@@ -1,13 +1,11 @@
 # POO2
 Repositório para as atividades referentes ao trabalho da disciplina de POO2
-
 ## 1. COMPONENTES
 
 André Altivo: Andrehdx@gmail.com  <br>
 Ewerson Vieira: ewersonv@gmail.com <br>
 Jadson Pereira: jadsonpereira121@gmail.com <br>
 Marcos de Paula: cardepaula@gmail.com <br>
-
 ## 2. INTRODUÇÃO E MOTIVAÇAO
 Hoje, no Brasil, existem [12,7 milhões de desempregados](https://g1.globo.com/economia/noticia/2019/02/27/desemprego-sobe-para-12-em-janeiro-diz-ibge.ghtml). É verdade que o mercado para profissionais de TI segue aquecido apesar desse número alarmante de desempregados em nossa sociedade. Porém, nota-se a falta de um canal unificado, para divulgação de vagas de emprego, por parte das empresas, e procura de vagas de emprego, por parte dos profissionais.
 
@@ -16,7 +14,6 @@ Usualmente, empresas divulgam suas vagas em seus sites, grupos em redes sociais 
 Analisando esse cenário, tivemos a ideia de criar uma plataforma que facilitasse esse acesso às vagas, por parte dos candidatos, e à profissionais qualificados por parte das empresas. A ideia é que em nossa plataforma, com apenas alguns cliques, tanto empresas quanto candidatos, possam encontrar sua parte correspondente com facilidade, afetando até mesmo a forma como os profissionais de RH dessas empresas se comunicam com novos talentos e os recrutam.
 
 Com isso, pretendemos ser a principal plataforma na busca e divulgação de vagas de emprego. Num primeiro momento focando apenas em vagas para profissionais de TI, mas podendo expandir o escopo para outras profissões, chegando até mesmo a ser uma plataforma universal para procura e divulgação de qualquer tipo de vaga de emprego.
-
 ## 3. MINI-MUNDO
 Observando as formas que as empresas, nos dias de hoje, divulgam suas vagas de emprego e como os profissionais de TI procuram estas vagas, pensamos na criação de uma plataforma que pudesse unificar, facilitar e agilizar esse processo tanto para as empresas quanto para os profissionais.
 
@@ -25,7 +22,6 @@ Na plataforma em questão os profissionais de TI realizam seus cadastros e infor
 Para um profissional enviar mensagem para uma empresa ou o contrário, é necessário que o profissional tenha se candidatado à vaga da empresa e que a empresa tenha aceitado o perfil do profissional.
 
 Para o profissional é importante que apareçam apenas vagas que sejam compatíveis com seus conhecimentos. Para as empresas o importante é que apareçam apenas candidatos que preencham os requisitos necessários para suas vagas, de acordo com a porcentagem de compatibilidade estipulada pela mesma.
-
 ## 4. TECNOLOGIAS UTILIZADAS <br>
 
 Mockup: Mockplus <br>
@@ -33,7 +29,6 @@ Gerenciamento de projeto e controle de versão: GitHub <br>
 Modelagem do banco de dados: brModelo <br>
 Banco de dados: Sqlite <br>
 Software: desenvolvido em Python, utilizando pyCharm e o framework Django. <br>
-
 ## 5. PMC <br> 
 [PMC](https://docs.google.com/drawings/d/1a-0lQvwfUCVxYfxCVV7p6tyMoTpmQ2pI3AYdvLzMa3k/edit)
 
@@ -109,7 +104,6 @@ Rode o servidor com o seguinte comando.
 (venv) ~$  python manage.py runserver
 ```
 Se tudo estiver certo, o servidor estará respondendo nos endereços `http://localhost:8000/` ou `http://127.0.0.1:8000`
-
 ## 13. Padrões de Projeto Usados
 ### Padrão Fabrica
 Define uma interface para criar um objeto, mas "deixa" a decisão de instanciação para as subclasses.<br>
@@ -131,7 +125,6 @@ Nós usamos esse padrão para o funcionamento dos botões de comando da tela de 
 
 ### Active Record
 Padrão encontrado em softwares que armazenam seus dados em bancos de dados relacionais, onde o objeto está mapeado diretamente a uma entidade do banco, com propriedades correspondendo a colunas na tabela, e contendo métodos para CRUD.
-
 ## 14.Referencias
 
 [Django Girls](https://tutorial.djangogirls.org/pt/)
