@@ -48,14 +48,14 @@ Software: desenvolvido em Python, utilizando pyCharm e o framework Django. <br>
 ### Requisitos Não Funcionais
 | Identificador | Descrição | Categoria | Escopo |
 |--|--|--|--|
-|RNF001| O aplicativo deverá funcionar em aparelhos mobile Android e IOS |Portabilidade|Funcionalidade|
-|RNF002| É necessária conexão com a internet para a funcionalidade do aplicativo |Estabilidade|Sistema|
-|RNF003| O Sistema precisa reconhecer se a pessoa é fisica ou juridica, pois possuem autorizações diferentes |Autorização|Sistema|
-|RNF004| O Candidato, caso pessoa física, poderá conectar com contas como Linkedin e Freelancer para poder informar trabalhos anteriores |Interoperabilidade|Funcionalidade|
-|RNF005| O sistema exigirá aos usuários apenas detalhes técnicos como experiência e outros empregos|Proteção contra erros do usuário|Sistema|
-|RNF006| O sistema pode ser atualizado com novas profissões |Modificabilidade|Funcionalidade|
-|RNF007| O sistema armazena matchs, conversas e criações de vagas em banco de dado |Analisabilidade|Sistema|
-|RNF008| O sistema consulta o CPF e o CNPJ do cadastrado para validar o cadastro |Autenticação|Sistema|
+| RNF001 | O aplicativo deverá funcionar em aparelhos mobile Android e IOS | Portabilidade | Funcionalidade |
+| RNF002 | É necessária conexão com a internet para a funcionalidade do aplicativo | Estabilidade | Sistema |
+| RNF003 | O Sistema precisa reconhecer se a pessoa é fisica ou juridica, pois possuem autorizações diferentes | Autorização | Sistema |
+| RNF004 | O Candidato, caso pessoa física, poderá conectar com contas como Linkedin e Freelancer para poder informar trabalhos anteriores | Interoperabilidade | Funcionalidade |
+| RNF005 | O sistema exigirá aos usuários apenas detalhes técnicos como experiência e outros empregos| Proteção contra erros do usuário | Sistema |
+| RNF006 | O sistema pode ser atualizado com novas profissões | Modificabilidade | Funcionalidade |
+| RNF007 | O sistema armazena matchs, conversas e criações de vagas em banco de dado | Analisabilidade | Sistema |
+| RNF008 | O sistema consulta o CPF e o CNPJ do cadastrado para validar o cadastro | Autenticação | Sistema |
 
 ### Regras de Negócio
 | TIPO | Descrição |
