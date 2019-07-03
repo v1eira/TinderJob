@@ -47,7 +47,7 @@ Software: desenvolvido em Python, utilizando pyCharm e o framework Django. <br>
 ## 10. Requisitos <br>
 ### Requisitos Não Funcionais
 | Identificador | Descrição | Categoria | Escopo |
-|--|--|--|--|
+| -- | -- | -- | -- |
 | RNF001 | O aplicativo deverá funcionar em aparelhos mobile Android e IOS | Portabilidade | Funcionalidade |
 | RNF002 | É necessária conexão com a internet para a funcionalidade do aplicativo | Estabilidade | Sistema |
 | RNF003 | O Sistema precisa reconhecer se a pessoa é fisica ou juridica, pois possuem autorizações diferentes | Autorização | Sistema |
@@ -59,7 +59,7 @@ Software: desenvolvido em Python, utilizando pyCharm e o framework Django. <br>
 
 ### Regras de Negócio
 | TIPO | Descrição |
-|--|--|
+| -- | -- |
 | Restrições | A vaga de emprego só aparece para o candidato quando tiver 50% de compatibilidade entre os requisitos  da vaga e as informações do candidato. <br><br> Vagas são ofertadas de acordo com a região selecionada pelo candidato. <br><br> Vagas desativadas só ficarão armazenadas no banco de dados por 6 meses.|
 | Ativadores de Ação | Se ambos os pares aceitarem o match, o chat é criado. <br><br> Se o match for desfeito por um dos pares, o chat é deletado. <br><br> A empresa, caso a vaga seja preenchida, pode desativar a vaga. |
 | Inferências | Se a empresa tiver muitas requisições de match, será considerada empresa Popular. |
