@@ -60,9 +60,9 @@ Software: desenvolvido em Python, utilizando pyCharm e o framework Django. <br>
 ### Regras de Negócio
 | TIPO | Descrição |
 |--|--|
-|Restrições| A vaga de emprego só aparece para o candidato quando tiver 50% de compatibilidade entre os requisitos  da vaga e as informações do candidato. <br><br> Vagas são ofertadas de acordo com a região selecionada pelo candidato. <br><br> Vagas desativadas só ficarão armazenadas no banco de dados por 6 meses.|
-|Ativadores de Ação| Se ambos os pares aceitarem o match, o chat é criado. <br><br> Se o match for desfeito por um dos pares, o chat é deletado. <br><br> A empresa, caso a vaga seja preenchida, pode desativar a vaga. |
-|Inferências| Se a empresa tiver muitas requisições de match, será considerada empresa Popular. |
+| Restrições | A vaga de emprego só aparece para o candidato quando tiver 50% de compatibilidade entre os requisitos  da vaga e as informações do candidato. <br><br> Vagas são ofertadas de acordo com a região selecionada pelo candidato. <br><br> Vagas desativadas só ficarão armazenadas no banco de dados por 6 meses.|
+| Ativadores de Ação | Se ambos os pares aceitarem o match, o chat é criado. <br><br> Se o match for desfeito por um dos pares, o chat é deletado. <br><br> A empresa, caso a vaga seja preenchida, pode desativar a vaga. |
+| Inferências | Se a empresa tiver muitas requisições de match, será considerada empresa Popular. |
   
 ## 11. Diagrama de Classes <br>
 ![alt text](https://github.com/v1eira/POO2/blob/master/arquivos/diagramas/Diagrama%20de%20Classes%20(2).jpg)
